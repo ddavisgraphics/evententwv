@@ -1,0 +1,9 @@
+//sass --watch scss/style.scss:css/style.css
+
+// Vendors
+@import "vendors/bourbon/bourbon";
+@import "vendors/neat/neat";
+
+// Normalize Browsers
+@import "vendors/normalize/normalize";
+@import "main";
