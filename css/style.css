@@ -611,13 +611,13 @@ section h2 {
   position: relative;
   width: 100%;
   background: #4995d1;
-  height: 600px;
+  height: 700px;
   margin-top: 20px;
   z-index: -2; }
 
 #googlemaps {
   margin-top: 75px;
-  height: 600px;
+  height: 700px;
   width: 100%;
   position: absolute;
   top: -75px;
