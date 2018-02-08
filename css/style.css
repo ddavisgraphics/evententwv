@@ -1,4 +1,4 @@
-	* {
+* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
@@ -447,19 +447,19 @@ nav {
     letter-spacing: 2px;
     cursor: pointer;
     width: 49%;
+    padding: 10px;
     background: #4995d1;
     margin-top: 5px; }
     @media (min-width: 64em) {
       nav ul li {
         display: inline-block;
-        width: inherit;
+        width: initial;
         text-align: right; } }
     nav ul li a {
       color: #fff;
       text-decoration: none;
       display: block;
-      font-size: 10px;
-      padding: 10px; }
+      font-size: 10px; }
     nav ul li:hover, nav ul li:active {
       background: #e11f26; }
   @media (min-width: 64em) {
@@ -476,27 +476,14 @@ nav {
 
 .hero, .red-hero {
   float: left;
-  padding-top: 50px;
+  padding-top: 40px;
   background: url("../img/headerbg2.jpg") no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  background-position: center center; }
   @media (min-width: 64em) {
-    .hero {
-      height: 700px; } 
-  }
-  
-.red-hero {
-  background: url("../img/headerbg2.jpg") no-repeat;
-  background-size: 150%; 
-  background-color:red;
-  height:auto;
- } @media (min-width: 64em) {
-    .red-hero {
-      height: auto;
-      background-size: 150%;  
-    } 
-  }
-  
-  
+    .hero, .red-hero {
+      height: 700px; } }
+
 blockquote {
   text-transform: uppercase;
   font-size: 24px;
@@ -540,7 +527,7 @@ blockquote {
   @media (min-width: 64em) {
     .image-logo {
       width: 50%;
-      height: 400px; } }
+      height: 480px; } }
 
 section h2 {
   text-transform: uppercase;
@@ -553,10 +540,8 @@ section h2 {
 
 .red-hero {
   padding-top: 0;
-  background: url(../img/redbackground2.jpg) no-repeat;
-  background-size: 150%;
-  background-color: rgb(172, 23, 24);
-  background-position: center top;
+  background: url(../img/redbg.jpg) no-repeat;
+  background-size: cover;
   padding-bottom: 40px; }
 
 .half {
@@ -626,13 +611,13 @@ section h2 {
   position: relative;
   width: 100%;
   background: #4995d1;
-  height: 650px;
+  height: 600px;
   margin-top: 20px;
   z-index: -2; }
 
 #googlemaps {
   margin-top: 75px;
-  height: 650px;
+  height: 600px;
   width: 100%;
   position: absolute;
   top: -75px;

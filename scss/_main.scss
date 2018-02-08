@@ -143,9 +143,10 @@ nav {
 
 .hero {
     float:left;
-    padding-top:50px;
-    background:url('../img/headerbg.jpg') no-repeat;
+    padding-top:40px;
+    background:url('../img/headerbg2.jpg') no-repeat;
     background-size:cover;
+    background-position:center center;
 
     @include breakpoint(desktop){
         height:700px;
@@ -193,7 +194,7 @@ blockquote {
 
     @include breakpoint(desktop){
         width:50%;
-        height:400px;
+        height:480px;
     }
 }
 
